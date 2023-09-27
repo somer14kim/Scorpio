@@ -1,0 +1,102 @@
+<nav>
+   <label for="Home"></label><a href="#">Home</a>
+   <label for="About"></label><a href="#">About</a>
+   <label for="News"></label><a href="#">News</a>
+   <label for="Information"></label><a href="#">Information</a>
+   <label for="Contact"></label><a href="#">Contact</a>
+</nav>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.5">
+<style>
+.flex-container {
+  display: flex;
+  background-color: blue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 40px;
+}
+</style>
+  <style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+</style>
+  <style>
+body {
+  background-color: lightblue;
+}
+
+@media screen and (min-width: 640px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+</style>
+  <style>
+body {
+  background-color: lightblue;
+}
+
+@media screen and (max-width: 1920px) {
+  body {
+    background-color: lightpurple;
+  }
+}
+</style>
+</head>
+
+<form><label for="search bar"></label><input type="text" name="search"/><button>Search</button></form>
+<div id="main">
+  <label for="Heading 1"></label> <h1 class="special">Main Content</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. <strong>This is important text.</strong> Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor.</p>
+</div>
+<img class="mtn" src="https://res.cloudinary.com/dlwybkwrp/image/upload/v1693535747/ninja_esports_c2iyiv.png" alt="Esports">
+<div id="main">
+  <label for="Heading 2"></label> <h2 class="special">More Information</h2>
+  <p style="font-size:3vw;">Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. <em>This text has stressed emphasis.</em> Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscin.</p>
+</div>
+<div id="main">
+  <label for="Heading 3"></label> <h2 class="special">More Information</h2>
+  <p>Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. <em>This text has stressed emphasis.</em> Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscin.</p>
+</div>
+<img class="mtn" src="https://res.cloudinary.com/dlwybkwrp/image/upload/c_scale,w_167/v1693536782/ori_3677422_7yqyaegyy913s21kj9b50h6m2cy996ze9924hcln_ninja-esport-mascot-logo-design_fkqrma.png" alt="Esports">
+<ul class="flex-container">
+  <li>Game 1: 09/12/23</li>
+  <li>Game 2: 09/20/23</li>
+  <li>Game 3: 10/01/23</li>
+  <li>Game 4: 10/05/23</li>
+  <li>Game 5: 10/15/23</li>
+</ul>
+<ul>
+   <li class="item1">1st Game: 18:20</li>
+  <li class="item2">2nd Game: 25:15</li>
+  <li class="item3">3rd Game 20:20</li>  
+  <li class="item4">4th Game 25:24</li>
+  <li class="item5">5th Game 10:18</li>
+</ul>
+<footer>
+  <p>@ Copyright</p>
+</footer>
+
+
+<div id="noDisplay">This div is hidden.</div>
